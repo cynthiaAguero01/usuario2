@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Usuarios</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+    <body>
+        <h1>Gestión de Usuarios</h1>
+        <input type="text" id="buscador" placeholder="Buscar usuario por nombre, email o ciudad">
+
+        <p id="mensaje-no-encontrado">Lo siento, no hay ningún usuario con este nombre. Vuelve a intentar.</p>
+
+        <div id="lista-usuarios"></div>
+
+        <form id="formulario">
+            <input type="text" id="nombre" placeholder="Nombre completo" required>
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="ciudad" placeholder="Ciudad" required>
+            <input type="text" id="telefono" placeholder="Teléfono" required>
+            <input type="text" id="empresa" placeholder="Nombre de la empresa" required>
+            <button type="submit">Agregar Usuario</button>
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
+
+
